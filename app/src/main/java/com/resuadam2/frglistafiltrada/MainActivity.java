@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String[] datos=new String[] {"uno","dos","tres","cuatro","cinco","seis","siete"};
+        String[] datos=new String[] {"vaca","pollo","caballo","gallina","cerdo","oveja","cabra","perro","gato"};
         FragmentManager gestor=this.getSupportFragmentManager();
         FrgListaConFiltro frg=(FrgListaConFiltro) gestor.findFragmentById(R.id.idListaConFiltro);
         frg.setOnFrgListaConFiltro(
